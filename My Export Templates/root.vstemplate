@@ -1,0 +1,22 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>VirtCommerce.ManagedModule</Name>
+        <Description>An example of a multi-project template</Description>
+        <Icon>__TemplateIcon.png</Icon>
+        <ProjectType>CSarp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink ProjectName="VirtoCommerce.ManagedModule.Data">
+                VirtoCommerce.ManagedModule.Data\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="VirtoCommerce.ManagedModule.Tests">
+                  VirtoCommerce.ManagedModule.Tests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+	    <ProjectTemplateLink ProjectName="VirtoCommerce.ManagedModule.Web">
+                  VirtoCommerce.ManagedModule.Web\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

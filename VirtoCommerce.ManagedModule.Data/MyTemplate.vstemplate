@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>VirtoCommerce.ManagedModule.Data</Name>
+    <Description>VirtoCommerce.ManagedModule.Data</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>VirtoCommerce.ManagedModule.Data</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="VirtoCommerce.ManagedModule.Data.csproj" File="VirtoCommerce.ManagedModule.Data.csproj" ReplaceParameters="true">
+      <Folder Name="Common" TargetFolderName="Common" />
+      <Folder Name="Model" TargetFolderName="Model" />
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="VirtoCommerce.ManagedModule.Data.nuspec">VirtoCommerce.ManagedModule.Data.nuspec</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

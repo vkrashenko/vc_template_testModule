@@ -1,0 +1,4 @@
+C:\Users\ValeriyKrashenko\Source\Repos\vc-platform\VirtoCommerce.Platform.Data\bin\Debug\VirtoCommerce.ManagedModule.Data.dll
+C:\Users\ValeriyKrashenko\Source\Repos\vc-platform\VirtoCommerce.Platform.Data\bin\Debug\VirtoCommerce.ManagedModule.Data.pdb
+C:\Users\ValeriyKrashenko\Source\Repos\vc-platform\VirtoCommerce.Platform.Data\obj\Debug\VirtoCommerce.ManagedModule.Data.dll
+C:\Users\ValeriyKrashenko\Source\Repos\vc-platform\VirtoCommerce.Platform.Data\obj\Debug\VirtoCommerce.ManagedModule.Data.pdb

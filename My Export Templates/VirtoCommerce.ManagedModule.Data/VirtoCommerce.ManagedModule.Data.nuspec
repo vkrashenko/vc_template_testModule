@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>$id$</id>
+        <version>1.0.0</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <licenseUrl>https://github.com/ENTER_YOUR_URL_HERE</licenseUrl>
+        <projectUrl>https://github.com/ENTER_YOUR_URL_HERE</projectUrl>
+        <iconUrl>https://github.com/ENTER_YOUR_URL_HERE</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>$description$</description>
+        <copyright>Copyright ©</copyright>
+    </metadata>
+</package>

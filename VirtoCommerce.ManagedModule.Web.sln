@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.ManagedModule.Web", "C:\Users\ValeriyKrashenko\Documents\Visual Studio 2017\Projects\VirtoCommerce.ManagedModule.Web\VirtoCommerce.ManagedModule.Web\VirtoCommerce.ManagedModule.Web.csproj", "{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.ManagedModule.Data", "C:\Users\ValeriyKrashenko\Documents\Visual Studio 2017\Projects\VirtoCommerce.ManagedModule.Web\VirtoCommerce.ManagedModule.Data\VirtoCommerce.ManagedModule.Data.csproj", "{39AFD233-B2F7-4178-817D-0A339C57525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.ManagedModule.Tests", "C:\Users\ValeriyKrashenko\Documents\Visual Studio 2017\Projects\VirtoCommerce.ManagedModule.Web\VirtoCommerce.ManagedModule.Tests\VirtoCommerce.ManagedModule.Tests.csproj", "{A3B5EC9F-A1C9-43FE-8FC9-E11BBACF31BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9} = {C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87DC6DE-A2AD-4096-9BDB-8D038280D5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AFD233-B2F7-4178-817D-0A339C57525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AFD233-B2F7-4178-817D-0A339C57525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AFD233-B2F7-4178-817D-0A339C57525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AFD233-B2F7-4178-817D-0A339C57525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B5EC9F-A1C9-43FE-8FC9-E11BBACF31BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B5EC9F-A1C9-43FE-8FC9-E11BBACF31BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B5EC9F-A1C9-43FE-8FC9-E11BBACF31BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B5EC9F-A1C9-43FE-8FC9-E11BBACF31BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

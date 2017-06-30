@@ -1,0 +1,1 @@
+D:\Desktop\VirtoCommerce.ManagedModule.Tests\obj\Debug\VirtoCommerce.ManagedModule.Tests.csprojResolveAssemblyReference.cache

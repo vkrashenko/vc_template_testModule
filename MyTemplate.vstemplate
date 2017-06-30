@@ -1,0 +1,47 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>VirtoCommerce.ManagedModule.Web</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>VirtoCommerce.ManagedModule.Web</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="VirtoCommerce.ManagedModule.Web.csproj" File="VirtoCommerce.ManagedModule.Web.csproj" ReplaceParameters="true">
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="css" TargetFolderName="css" />
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <Folder Name="Api" TargetFolderName="Api">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ManagedModuleController.cs">ManagedModuleController.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Module.cs">Module.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="module.manifest">module.manifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <Folder Name="blades" TargetFolderName="blades">
+          <ProjectItem ReplaceParameters="true" TargetFileName="blade.js">blade.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="blade.tpl.html">blade.tpl.html</ProjectItem>
+        </Folder>
+        <Folder Name="resources" TargetFolderName="resources">
+          <ProjectItem ReplaceParameters="true" TargetFileName="managedModuleApi.js">managedModuleApi.js</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
